@@ -1,7 +1,11 @@
+import Banner from "~/components/Banner";
+import Slider from "~/components/Slider";
+
 function Home() {
     return (
-        <div className="content">
-            <p>Trang chủ</p>
+        <div className="container">
+            <Banner />
+            <Slider />
         </div>
     );
 }
